@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #EFFBF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Registration Section */
+.registration-container {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 80%;
+    max-width: 900px;
+}
+
+/* Left Section */
+.info-box {
+    width: 40%;
+    background: #EFFFF4;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-box .logo {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.info-box h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}
+
+.info-box p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Right Section */
+.form-container {
+    width: 60%;
+    padding: 40px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+/* Register Button */
+.register-btn {
+    background: #00A07E;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.register-btn:hover {
+    background: #008F6A;
+}
+
+/* Terms & Conditions */
+.terms {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.terms a {
+    color: #00A07E;
+    text-decoration: none;
+}

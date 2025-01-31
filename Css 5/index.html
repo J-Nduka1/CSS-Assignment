@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - WP Pusher</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="Assests/wppusher-logo copy.png" alt="WP Pusher Logo">
+        </div>
+        <nav class="nav-links">
+            <a href="#">Download</a>
+            <a href="#">Learn More</a>
+            <a href="#">Pricing</a>
+            <a href="#">Help</a>
+            <button class="account-btn">Account</button>
+        </nav>
+    </header>
+
+    <main class="checkout-container">
+        <div class="checkout-box">
+            <div class="form-container">
+                <h2>Checkout</h2>
+
+                <!-- Basic Information -->
+                <div class="section">
+                    <h3><span class="circle">1</span> Your Basic Information</h3>
+                    <div class="form-group">
+                        <input type="text" placeholder="First Name" value="Jane" required>
+                        <input type="text" placeholder="Last Name" value="Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="E-mail" value="janedoe@example.com" required>
+                    </div>
+                </div>
+
+                <!-- Payment Information -->
+                <div class="section">
+                    <h3><span class="circle">2</span> Your Payment Information</h3>
+                    <div class="form-group credit-card">
+                        <input type="text" placeholder="Card Number" required>
+                        <input type="text" placeholder="MM / YY" required>
+                        <input type="text" placeholder="CVC" required>
+                    </div>
+                </div>
+
+                <!-- Checkout Button -->
+                <button class="checkout-btn">Buy WP Pusher</button>
+
+                <!-- Help Section -->
+                <p class="help-text">
+                    <span class="info-icon">?</span> Need any help? Don't hesitate to 
+                    <a href="#">contact</a> support!
+                </p>
+                <div class="stripe-badge">
+                    <img src="Assests/powered_by_stripe.png" alt="powered_by_stripe" srcset=""></div>
+            </div>
+
+            <!-- Right-Side Pricing Section -->
+            <div class="pricing-box">
+                <h3>Freelancer</h3>
+                <p class="price">$99 <span>/ year</span></p>
+                <p class="small-text">Automatically renews after 1 year</p>
+                <ul>
+                    <li>✅ Use on 5 client sites</li>
+                    <li>✅ Private repositories</li>
+                    <li>✅ Email support</li>
+                </ul>
+                <p class="switch-plan">Need 20 client sites? <a href="#">Switch to the Agency plan.</a></p>
+
+                <hr>
+
+                <blockquote>
+                   <em>"FTP is horrible to deal with. <strong>WP Pusher</strong> solves that issue, and the customer support is awesome!"</em>
+                </blockquote>
+                <div class="testimonial">
+                    <img src="Assests/kirk.jpg"User">
+                    <span>Kirk Beard</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2018 WP Pusher IVS · <a href="#">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>

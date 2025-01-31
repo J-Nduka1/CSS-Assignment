@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Registration Section -->
+    <section class="registration-container">
+        <!-- Left Section -->
+        <div class="info-box">
+            <img src="Assets/Logo.png" alt="Logo" class="logo">
+            <h2>For Individuals</h2>
+            <p>Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+        </div>
+
+        <!-- Right Section -->
+        <div class="form-container">
+            <form class="registration-form">
+                <div class="form-group">
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+
+                <div class="form-group">
+                    <select required>
+                        <option value="Gender">Select here</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <input type="date" placeholder="Date of Birth" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="number" placeholder="Weight (KG)" required>
+                    <input type="number" placeholder="Height (CM)" required>
+                </div>
+
+                <div class="form-group">
+                    <select required>
+                        <option value="" disabled selected>Activity Level</option>
+                        <option value="low">Low</option>
+                        <option value="moderate">Moderate</option>
+                        <option value="high">High</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <input type="password" placeholder="Password" required>
+                </div>
+
+                <button type="submit" class="register-btn">Register</button>
+
+                <p class="terms">
+                    By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>.
+                </p>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
